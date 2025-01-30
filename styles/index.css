@@ -27,5 +27,16 @@ main {
     border-radius:8px;
     display: flex;
     margin: 10px;
+    padding: 15px;
+}
+
+.block1__square {
+    background-color: #9D0208;
+    height:78px;
+    width:78px;
+    border-radius: 4px;
+    display: flex;
+    margin: 7px;
+    align-self: flex-end;
 }
 
