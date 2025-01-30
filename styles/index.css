@@ -1,0 +1,24 @@
+main {
+    height: 100vh;
+}
+
+.background {
+    background-color: #370617;
+    height: 700px;
+    width: 1152px;
+    padding: 0;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+.block {
+    width:468px;
+    height:160px;
+    background-color: #F48C06;
+    border-radius:8px;
+    margin: 20px;
+}
+
