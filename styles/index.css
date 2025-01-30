@@ -1,17 +1,23 @@
 main {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #370617;
+    width: 100%;
     height: 100vh;
 }
 
 .background {
-    background-color: #370617;
-    height: 700px;
-    width: 1152px;
-    padding: 0;
+    max-width: 1152px;
+    max-height: 700px;
     display: flex;
     align-items:center;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
-
+    flex-direction:row;
+    gap: 10px;
+    padding-top: 20%;
+    padding-left: 5%;
 }
 
 .block {
@@ -19,6 +25,7 @@ main {
     height:160px;
     background-color: #F48C06;
     border-radius:8px;
-    margin: 20px;
+    display: flex;
+    margin: 10px;
 }
 
